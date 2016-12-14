@@ -1,0 +1,28 @@
+{
+"name": "Upload Master",
+"version": "1.0",
+"manifest_version": 2,
+"description": "Instant file distributing via one click",
+"icons": { "128": "upload.png"
+         },
+"background": {
+    "scripts": ["background.js"]
+},
+"browser_action": {
+    "default_title": "UMaster",
+    "default_icon": "upload.png"
+},
+"options_page": "options.html",
+
+"permissions": [
+    "background",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+    ]
+    
+    
+    
+   
+    
+}
